@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<suburls xmlns="http://jelix.org/ns/suburls/1.0">
+    <url pathinfo="/hello"   action="default:index" />
+    <url pathinfo="/hello/:who"   action="default:helloWithTpl">
+        <param name="who" />
+    </url>
+</suburls>

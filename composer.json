@@ -1,0 +1,24 @@
+{
+    "name": "jelix/helloworld-module",
+    "type": "jelix-module",
+    "description": "Example of a jelix module.",
+    "keywords": ["module", "jelix", "hello world"],
+    "homepage": "http://jelix.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Laurent Jouanneau",
+            "email": "laurent@jelix.org"
+        }
+    ],
+    "require": {
+    },
+    "minimum-stability": "stable",
+    "extra" : {
+        "jelix" : {
+            "modules": [
+                "helloworld"
+            ]
+        }
+    }
+}

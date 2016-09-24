@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://jelix.org/ns/module/1.0">
+    <info id="helloworld@modules.jelix.org" name="helloworld">
+        <version>1.0.0</version>
+        <label lang="en_US">Hello world</label>
+        <description lang="en_US"></description>
+        <license>MIT</license>
+        <copyright>2016 Laurent Jouanneau</copyright>
+    </info>
+</module>
