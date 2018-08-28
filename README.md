@@ -14,7 +14,11 @@ composer require "jelix/helloworld-module"
 ```
 
 
-Then declare the module into the configuration of your application
+In Jelix 1.6
+------------
+
+
+Declare the module into the configuration of your application, mainconfig.ini.php:
 
 ```ini
 [modules]
@@ -22,8 +26,23 @@ Then declare the module into the configuration of your application
 helloworld.access=2
 ```
 
-And then:
+then launch the installer to activate the module
 
+```bash
+php yourapp/install/installer.php
 ```
-php yourapp/cmd.php install
+
+In Jelix 1.7
+------------
+
+Launch the configurator for your application to enabling the module
+
+```bash
+php yourapp/cmd.php module:configure jfeeds
+```
+
+And then launch the installer to activate the module
+
+```bash
+php yourapp/install/installer.php
 ```
