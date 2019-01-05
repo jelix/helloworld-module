@@ -32,13 +32,13 @@ then launch the installer to activate the module
 php yourapp/install/installer.php
 ```
 
-In Jelix 1.7
-------------
+In Jelix 1.7+
+-------------
 
 Launch the configurator for your application to enabling the module
 
 ```bash
-php yourapp/cmd.php module:configure jfeeds
+php yourapp/dev.php module:configure helloworld
 ```
 
 And then launch the installer to activate the module
