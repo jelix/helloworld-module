@@ -18,7 +18,19 @@
         "jelix" : {
             "modules": [
                 "helloworld"
-            ]
+            ],
+            "autoconfig-access-16" : {
+                "__any_app" : {
+                    "helloworld": {
+                        "__global": 1
+                    }
+                },
+                "lizmap@3liz.com" : {
+                    "helloworld": {
+                        "index" : 2
+                    }
+                }
+            }
         }
     }
 }
